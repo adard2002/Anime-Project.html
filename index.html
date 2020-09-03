@@ -2,23 +2,31 @@
 <html>
 
 <head>
-    <title>HTML demo</title>
+    <title>Anime Project</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <h1>Our Anime Selections!</h1>
+        <!-- navigation bar -->
         <nav>
             <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="index_PageTwo.html">IndexTwo Page</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="https://github.com/adard2002/DISCUSSION_04.html">GitHub Page</a></li>
                 <li><a href="https://www.crunchyroll.com/">Crunchyroll</a></li>
             </ul>
         </nav>
+        <!-- search bar -->
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <input type="text" placeholder="Search..">
+        </div>
     </header>
     <main>
+        <!-- This is going to be a slideshow that goes to the next slide every 5-ish seconds -->
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <div class="numbertext">1 / 5</div>
@@ -37,7 +45,7 @@
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">4 / 5</div>
-                <img src="images/asilentvoice.jpg" style="width:100%">
+                <img src="images/asilentvoice2.jpg" style="width:100%">
                 <div class="text">Caption Four</div>
             </div>
             <div class="mySlides fade">
@@ -51,7 +59,7 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
-
+        <!-- going to be dots so users can click on the dots to go to certain slide -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -67,7 +75,7 @@
             <li><img src="images/akamegakill.jpg" alt="Akame Ga Kill"></li>
             <li><img src="images/DiTF.jpg" alt="Darling in the Franxx" width="960" height="375"></li>
             <li><img src="images/servamp.jpg" alt="Servamp" width="750" height="422"></li>
-            <li><img src="images/asilentvoice.jpg" alt="A Silence Voice - The Movie"></li>
+            <li><img src="images/asilentvoice2.jpg" alt="A Silence Voice - The Movie"></li>
         </ul>
 
     </main>
