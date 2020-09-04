@@ -1,3 +1,9 @@
 * {
     border: dashed 1px #000000;
 }
+
+
+body {
+    width:950px;
+    margin: 0 auto;
+}
