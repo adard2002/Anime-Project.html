@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: hsl(200, 100%, 58%);
+    color: #b5bcff;
 }
 
 body {
@@ -23,6 +23,7 @@ header {
 header a {
     color: #b5bcff;
     font-size: 24px;
+    padding: 25px;
 }
 
 h1 {
@@ -91,32 +92,9 @@ main li:nth-child(4) {
     margin-left: 75px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #topSpace {
     margin-top: 30px;
 }
-
-
-
-
-
-
 
 footer {
     clear: both;
