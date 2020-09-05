@@ -40,11 +40,63 @@ nav ul {
     text-align: center;
 }
 
+nav li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+main {
+    clear: both;
+    text-align: center;
+}
+
+
+
+main li {
+    float: left;
+}
 
 
 
 
 
+
+#topSpace {
+    margin-top: 30px;
+}
+
+
+
+footer {
+    height: 225px;
+    background-color: #43adbb;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 
 
 
