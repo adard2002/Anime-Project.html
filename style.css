@@ -4,12 +4,10 @@
     padding: 0;
     color: hsl(200, 100%, 58%);
 }
-
 body {
     width: 960px;
     margin: 0 auto;
 }
-
 .animeImageSize {
     height: 150px;
     width: 250px;
