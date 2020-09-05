@@ -90,6 +90,7 @@ main li {
 
 
 footer {
+    clear: both;
     height: 225px;
     background-color: #43adbb;
     color: whitesmoke;
