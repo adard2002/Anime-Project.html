@@ -18,12 +18,14 @@ header {
     margin-top: 15px;
     background-color: rgb(107, 116, 201);
     height: 200px;
+    
 }
 
 header a {
     color: #b5bcff;
     font-size: 24px;
     padding: 25px;
+    padding-left: 25px;
 }
 
 h1 {
@@ -106,6 +108,6 @@ footer {
     text-align: center;
 }
 
-
+/* 
 
 
