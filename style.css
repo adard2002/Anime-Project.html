@@ -185,14 +185,7 @@ footer {
     to {opacity: 1}
 }
 /* end of slideshow code and the pictures will show up on the page at first without the javascript so I'm thinkin once I add the Javascript part it'll all be good. */
-.img-with-text {
-    text-align: justify;
-    width: 250px;
-}
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-}
+
 
 
 
