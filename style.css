@@ -14,13 +14,6 @@ body {
     width: 250px;
 }
 
-.row {
-    display: flex;
-}
-
-
-
-
 header {
     margin-top: 15px;
     background-color: rgb(107, 116, 201);
