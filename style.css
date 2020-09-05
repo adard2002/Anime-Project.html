@@ -4,20 +4,49 @@
     padding: 0;
     color: hsl(200, 100%, 58%);
 }
+
 body {
     width: 960px;
     margin: 0 auto;
 }
+
 .animeImageSize {
     height: 150px;
     width: 250px;
 }
+
 .center {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
 }
+
+header {
+    margin-top: 15px;
+    background-color: rgb(16, 96, 175);
+    height: 200px;
+}
+
+header a {
+    color: #d3f1fa;
+    font-size: 24px;
+}
+
+h1 {
+    padding: 25px;
+    padding-left: 60px;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
