@@ -14,6 +14,13 @@ body {
     width: 250px;
 }
 
+.row {
+    display: flex;
+}
+
+
+
+
 header {
     margin-top: 15px;
     background-color: rgb(107, 116, 201);
@@ -79,7 +86,7 @@ main li {
     float: left;
     margin-top: 30px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 
