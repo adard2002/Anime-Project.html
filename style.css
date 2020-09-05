@@ -12,7 +12,12 @@ body {
     height: 150px;
     width: 250px;
 }
-
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
 
 
 
