@@ -54,9 +54,3 @@ function showSlides() {
   setTimeout(showSlides, 4000); 
 }
 //end of slideshow js
-
-if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
