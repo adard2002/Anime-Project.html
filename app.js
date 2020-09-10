@@ -1,16 +1,8 @@
 'use strict';
 console.log('This file is connected and ready to run.');
 
-/** This is from Class 6 Start, wrap up of 101 js.
-new is a keyword object that has properties, the date.
-var today = new Date();
-var is a keyword that makes the word today a variable.
-allow to take the today variable and output to page. 
-document.write(today);
-*/
 
 // slideshow js
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -37,8 +29,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-//automatic?
 
+//automatic slideshow 
 var slideIndex = 0;
 showSlides();
 
@@ -55,6 +47,7 @@ function showSlides() {
 }
 //end of slideshow js
 
+//The alert box that asks for your first name and the time (military time)
 var userName = prompt('Please enter your first name.');
 alert('Hello, ' + userName + ' click OK to proceed.');
 
@@ -80,7 +73,8 @@ var header = document.getElementById('removeThis');
 header.remove();
 
 
-
+//* some reason when I reload the page the slideshow doesn't show up so you have click on either one of the arrows or one of the dots.
+//* I also wasnt able to do the same thing as Craig did in the video; having a little alert or popup box that asked you for your name and the time. 
 
 
 
