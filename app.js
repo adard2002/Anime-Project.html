@@ -21,10 +21,9 @@ if(hourNow >= 0 &&hourNow < 7){
     'Something went wrong!';
 }
 
-document.write('h1 style="color:yellow">' + greeting + '</h1>');
+document.write('<h2 style="color:#b5bcff">' + greeting + '</h2>');
 
 var header = document.getElementById('removeThis');
-header.remove();
 
 
 //* some reason when I reload the page the slideshow doesn't show up so you have click on either one of the arrows or one of the dots.
