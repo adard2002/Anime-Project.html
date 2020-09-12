@@ -277,13 +277,28 @@ section p
   filter: blur(30px);
 }
 
+/*this is the hyperlink colors */
+a:link {
+  background-color: none;
+}
 
+a:visited {
+  background-color: none;
+}
 
+a:hover {
+  background: linear-gradient(to top, #008aff,#00ffe7);
+  animation: animate 5s linear infinite;
+  color: black;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
 
-
-
-
-
+a:active {
+  background-color: none;
+}
 
 
 
