@@ -23,7 +23,7 @@ if(hourNow >= 0 &&hourNow < 7){
 
 document.write('<h2 style="color:#b5bcff">' + greeting + '</h2>');
 
-var header = document.getElementById('removeThis');
+    var header = document.getElementById('removeThis');
 
 
 //* some reason when I reload the page the slideshow doesn't show up so you have click on either one of the arrows or one of the dots.
