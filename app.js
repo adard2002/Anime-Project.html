@@ -21,18 +21,21 @@ if(hourNow >= 0 &&hourNow < 7){
     'Something went wrong!';
 }
 
+//function myFunction() {
+  //  greeting = setTimeout(function(){ alert('Hello, ' + userName + ' click OK to proceed.') }, 1.8e+7);
+//}
 
-
+//function myStopFunction() {
+    //clearTimeout(greeting);
+//}
 
 document.write('<h2 style="color:#b5bcff">' + greeting + '</h2>');
 
     var header = document.getElementById('removeThis');
 
 
-
-//* some reason when I reload the page the slideshow doesn't show up so you have click on either one of the arrows or one of the dots.
-//* I also wasnt able to do the same thing as Craig did in the video; having a little alert or popup box that asked you for your name and the time. 
-
+//* I was trying to get it so the popup prompt and alerts wouldn't pop up every time you refresh the page and instead only show it every 5 hours.
+//* I also wanted a particle effect to be the cursor trail and have the particles fall. 
 
 
 
