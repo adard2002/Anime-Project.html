@@ -10,9 +10,15 @@ body {
     background-image: url(animeimages/purplegalaxy.jpg)
 }
 
+        /*Anime Image Sizes*/
 .animeImageSize {
     height: 150px;
     width: 250px;
+}
+
+.animeMerchSize {
+  height: 250px;
+  width: 150px;
 }
 
 header {
@@ -35,6 +41,7 @@ h1 {
     font-size: 60px;
 }
 
+        /*Navigation*/
 nav {
     clear: both;
 }
@@ -59,11 +66,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h2 {
@@ -309,4 +316,3 @@ figure {
 figcaption {
   text-align: center;
 }
-
