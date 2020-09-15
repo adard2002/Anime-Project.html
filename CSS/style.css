@@ -7,7 +7,7 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background-image: url(animeimages/purplegalaxy.jpg)
+    background-image: url(../animeimages/purplegalaxy.jpg)
 }
 
         /*Anime Image Sizes*/
@@ -66,11 +66,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2 {
