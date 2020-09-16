@@ -25,15 +25,15 @@ function getInput() {
 
 }
 function showImage(input) {
-    var path = document.getElementById("storePage");
+    var path = document.getElementById('storePage');
 
     console.log(input + " was the input we received.")
 
     for (amount = 0; amount < input; amount++) {
-        var imgLi = document.createElement("li");
-        var img = document.createElement("img");
+        var imgLi = document.createElement('li');
+        var img = document.createElement('img');
         img.setAttribute('class', 'animeMerchSize')
-        console.log("Setting image " + images[amount] + " to the web document.")
+        console.log('Setting image ' + images[amount] + ' to the web document.')
         img.src = images[amount]
         imgLi.appendChild(img)
         path.appendChild(imgLi);
