@@ -286,16 +286,6 @@ a:active {
   background-color: none;
 }
 
-/*aligning text directly beneath an image */
-
-figure {
-  display: inline-block;
-}
-
-figcaption {
-  text-align: center;
-}
-
 /* making images larger as u hover over them */
 #thumbnail{                         
 width: 250px;
@@ -308,5 +298,20 @@ transition: all .4s ease-in-out;
 #thumbnail:hover {
 transform: scale(1.2)translateX(0px);
 }
+
+/* adding text under the images */
+figure {
+  padding-bottom: 15px;
+  margin: auto;
+  display: inline-block;
+}
+
+figcaption {
+  color: #b5bcff;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+
 
 
