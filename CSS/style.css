@@ -296,3 +296,18 @@ figcaption {
   text-align: center;
 }
 
+/* making images larger as u hover over them */
+#thumbnail{                         
+width: 250px;
+height: 150px;
+
+box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+display: block;
+  transition: all .4s ease-in-out;
+}
+
+#thumbnail:hover {
+transform: scale(1.5)translateX(50px);
+}
+
+
